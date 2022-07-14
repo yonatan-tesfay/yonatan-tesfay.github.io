@@ -25,7 +25,7 @@ themeToggler.onclick = () =>{
     }
 }
 var options = {
-    strings: ['', 'Problem Solver','Web Developer','Hard Working','Critical Thinker'],
+    strings: ['', 'Problem Solver','Web Developer','UI Designer','Senior Student'],
     typeSpeed: 80,loop:true
   };
    var typed = new Typed('.type', options);
