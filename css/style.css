@@ -4,7 +4,7 @@
     --green:#f94144;
     --black:#444;
     --light-color:#777;
-    --bg-color:rgba(236, 227, 227, 0.945);
+    --bg-color:		#E0E0E0;
     --border:.1rem solid rgba(0,0,0,.2);
     --box-shadow:.4rem .4rem 1rem #ccc,
                 -.4rem -.4rem 1rem #fff;
@@ -199,6 +199,7 @@ section{
 .home .cv{
    position: relative;
    bottom: -7rem;
+   font-weight: 600;
 }
 .home .share{
     position: relative;
@@ -244,6 +245,8 @@ section{
     padding:2rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
+    background-color: rgba(52, 86, 139,.3);
+    margin-top: 6rem;
 }
 
 .about .row .box-container .box h3{
@@ -256,12 +259,14 @@ section{
     font-size: 1.7rem;
     color:var(--light-color);
     padding:.5rem 0;
+    font-weight: 500;
 }
 
 .about .content p{
    color: var(--black);
    font-size: 1.5rem;
-   font-weight: 400;
+   font-weight: 500;
+   line-height: 1.8;
 }
 
 .about .row .content h3{
@@ -419,6 +424,7 @@ section{
     font-size:1.4rem;
     line-height: 1.8;
     color:var(--light-color);
+    font-weight: 600;
 }
 
 .services .box-container .box::before{
